@@ -3,7 +3,7 @@
       {
         "id": 1,
         "name": "Premier League",
-        "image": "premier_league.png",
+        "image": "/assets/prem.jpg",
         "teams": [
         {
             "id": 101,
