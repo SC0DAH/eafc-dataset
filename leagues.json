@@ -3,12 +3,12 @@
       {
         "id": 1,
         "name": "Premier League",
-        "image": "/assets/prem.jpg",
+        "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/prem.jpg",
         "teams": [
         {
             "id": 101,
             "name": "Manchester City",
-            "image": "la_liga.png",
+            "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/mancity.png",
             "players": [
             { "id": 1001, "name": "Kevin De Bruyne", "position": "Midfielder" },
             { "id": 1002, "name": "Erling Haaland", "position": "Forward" },
@@ -26,7 +26,7 @@
         {
             "id": 102,
             "name": "Liverpool",
-            "image": "la_liga.png",
+            "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/liverpool.png",
             "players": [
             { "id": 1101, "name": "Mohamed Salah", "position": "Forward" },
             { "id": 1102, "name": "Virgil van Dijk", "position": "Defender" },
@@ -44,7 +44,7 @@
         {
             "id": 103,
             "name": "Chelsea",
-            "image": "la_liga.png",
+            "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/chelsea.png",
             "players": [
             { "id": 1201, "name": "Kai Havertz", "position": "Forward" },
             { "id": 1202, "name": "Mason Mount", "position": "Midfielder" },
@@ -62,7 +62,7 @@
         {
             "id": 104,
             "name": "Manchester United",
-            "image": "la_liga.png",
+            "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/manutd.png",
             "players": [
             { "id": 1301, "name": "Bruno Fernandes", "position": "Midfielder" },
             { "id": 1302, "name": "Cristiano Ronaldo", "position": "Forward" },
@@ -80,7 +80,7 @@
         {
             "id": 105,
             "name": "Arsenal",
-            "image": "la_liga.png",
+            "image": "https://raw.githubusercontent.com/SC0DAH/eafc-dataset/refs/heads/main/assets/arsenal.webp",
             "players": [
             { "id": 1401, "name": "Bukayo Saka", "position": "Forward" },
             { "id": 1402, "name": "Martin Ødegaard", "position": "Midfielder" },
@@ -100,12 +100,12 @@
       {
         "id": 2,
         "name": "La Liga",
-        "image": "la_liga.png",
+        "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/laliga.png",
         "teams": [
     {
       "id": 201,
       "name": "Real Madrid",
-      "image": "realmadrid.png",
+      "image": "https://raw.githubusercontent.com/SC0DAH/eafc-dataset/refs/heads/main/assets/real.webp",
       "players": [
         { "id": 2001, "name": "Vinicius Jr.", "position": "Forward" },
         { "id": 2002, "name": "Luka Modric", "position": "Midfielder" },
@@ -123,7 +123,7 @@
     {
       "id": 202,
       "name": "Barcelona",
-      "image": "barcelona.png",
+      "image": "https://raw.githubusercontent.com/SC0DAH/eafc-dataset/refs/heads/main/assets/barca.webp",
       "players": [
         { "id": 2101, "name": "Robert Lewandowski", "position": "Forward" },
         { "id": 2102, "name": "Sergio Busquets", "position": "Midfielder" },
@@ -141,7 +141,7 @@
     {
       "id": 203,
       "name": "Atlético Madrid",
-      "image": "atleticomadrid.png",
+      "image": "https://raw.githubusercontent.com/SC0DAH/eafc-dataset/refs/heads/main/assets/atleticomadrid.webp",
       "players": [
         { "id": 2201, "name": "Antoine Griezmann", "position": "Forward" },
         { "id": 2202, "name": "Jan Oblak", "position": "Goalkeeper" },
@@ -159,7 +159,7 @@
     {
       "id": 204,
       "name": "Sevilla",
-      "image": "sevilla.png",
+      "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/sevilla.png",
       "players": [
         { "id": 2301, "name": "Youssef En-Nesyri", "position": "Forward" },
         { "id": 2302, "name": "Ivan Rakitic", "position": "Midfielder" },
@@ -177,7 +177,7 @@
     {
       "id": 205,
       "name": "Real Sociedad",
-      "image": "realsociedad.png",
+      "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/realsociedad.png",
       "players": [
         { "id": 2401, "name": "Mikel Oyarzabal", "position": "Forward" },
         { "id": 2402, "name": "David Silva", "position": "Midfielder" },
@@ -197,12 +197,12 @@
       {
         "id": 3,
         "name": "Serie A",
-        "image": "SerieA.png",
+        "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/seriea.jpg",
         "teams": [
           {
             "id": 301,
             "name": "Juventus",
-            "image": "juventus.png",
+            "image": "https://raw.githubusercontent.com/SC0DAH/eafc-dataset/refs/heads/main/assets/juventus.webp",
             "players": [
               { "id": 2301, "name": "Cristiano Ronaldo", "position": "Forward" },
               { "id": 2302, "name": "Paulo Dybala", "position": "Forward" },
@@ -220,7 +220,7 @@
           {
             "id": 302,
             "name": "AC Milan",
-            "image": "acmilan.png",
+            "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/acmilan.png",
             "players": [
               { "id": 2401, "name": "Zlatan Ibrahimović", "position": "Forward" },
               { "id": 2402, "name": "Stefano Pioli", "position": "Manager" },
@@ -238,7 +238,7 @@
           {
             "id": 303,
             "name": "Inter Milan",
-            "image": "intermilan.png",
+            "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/inter.png",
             "players": [
               { "id": 2501, "name": "Romelu Lukaku", "position": "Forward" },
               { "id": 2502, "name": "Lautaro Martínez", "position": "Forward" },
@@ -256,7 +256,7 @@
           {
             "id": 304,
             "name": "AS Roma",
-            "image": "asroma.png",
+            "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/roma.png",
             "players": [
               { "id": 2601, "name": "Henrikh Mkhitaryan", "position": "Midfielder" },
               { "id": 2602, "name": "Paulo Dybala", "position": "Forward" },
@@ -274,7 +274,7 @@
           {
             "id": 305,
             "name": "Napoli",
-            "image": "napoli.png",
+            "image": "https://raw.githubusercontent.com/SC0DAH/eafc-dataset/refs/heads/main/assets/napoli.webp",
             "players": [
               { "id": 2701, "name": "Victor Osimhen", "position": "Forward" },
               { "id": 2702, "name": "Lorenzo Insigne", "position": "Forward" },
@@ -294,12 +294,12 @@
       {
         "id": 4,
         "name": "Bundesliga",
-        "image": "bundesliga.png",
+        "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/bundesliga.jpg",
         "teams": [
           {
             "id": 401,
             "name": "Bayern Munich",
-            "image": "bayernmunich.png",
+            "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/bayern.jpg",
             "players": [
               { "id": 3101, "name": "Robert Lewandowski", "position": "Forward" },
               { "id": 3102, "name": "Thomas Müller", "position": "Midfielder" },
@@ -315,9 +315,10 @@
             ]
           },
           {
+
             "id": 402,
             "name": "Borussia Dortmund",
-            "image": "borussiadortmund.png",
+            "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/dortmund.png",
             "players": [
               { "id": 3201, "name": "Erling Haaland", "position": "Forward" },
               { "id": 3202, "name": "Marco Reus", "position": "Forward" },
@@ -335,7 +336,7 @@
           {
             "id": 403,
             "name": "RB Leipzig",
-            "image": "rbleipzig.png",
+            "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/rbleipzig.png",
             "players": [
               { "id": 3301, "name": "Christopher Nkunku", "position": "Forward" },
               { "id": 3302, "name": "Emil Forsberg", "position": "Midfielder" },
@@ -353,7 +354,7 @@
           {
             "id": 404,
             "name": "Bayer Leverkusen",
-            "image": "bayerleverkusen.png",
+            "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/leverkussen.png",
             "players": [
               { "id": 3401, "name": "Leon Bailey", "position": "Forward" },
               { "id": 3402, "name": "Patrik Schick", "position": "Forward" },
@@ -371,7 +372,7 @@
           {
             "id": 405,
             "name": "Borussia Mönchengladbach",
-            "image": "borussiamonchengladbach.png",
+            "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/borussiamonchengladbach.png",
             "players": [
               { "id": 3501, "name": "Marcus Thuram", "position": "Forward" },
               { "id": 3502, "name": "Jonas Hofmann", "position": "Midfielder" },
@@ -391,12 +392,12 @@
       {
         "id": 5,
         "name": "Ligue 1",
-        "image": "ligue1.png",
+        "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/ligue1.png",
         "teams": [
     {
       "id": 301,
       "name": "Paris Saint-Germain",
-      "image": "psg.png",
+      "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/psg.png",
       "players": [
         { "id": 3001, "name": "Kylian Mbappé", "position": "Forward" },
         { "id": 3002, "name": "Lionel Messi", "position": "Forward" },
@@ -414,7 +415,7 @@
     {
       "id": 302,
       "name": "Olympique Marseille",
-      "image": "marseille.png",
+      "image": "https://raw.githubusercontent.com/SC0DAH/eafc-dataset/refs/heads/main/assets/Olympique-de-Marseille.webp",
       "players": [
         { "id": 3101, "name": "Dimitri Payet", "position": "Forward" },
         { "id": 3102, "name": "Arkadiusz Milik", "position": "Forward" },
@@ -432,7 +433,7 @@
     {
       "id": 303,
       "name": "AS Monaco",
-      "image": "monaco.png",
+      "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/asmonaco.png",
       "players": [
         { "id": 3201, "name": "Wissam Ben Yedder", "position": "Forward" },
         { "id": 3202, "name": "Kamil Glik", "position": "Defender" },
@@ -450,7 +451,7 @@
     {
       "id": 304,
       "name": "Lyon",
-      "image": "lyon.png",
+      "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/Lyon.png",
       "players": [
         { "id": 3301, "name": "Karl Toko Ekambi", "position": "Forward" },
         { "id": 3302, "name": "Houssem Aouar", "position": "Midfielder" },
@@ -468,7 +469,7 @@
     {
       "id": 305,
       "name": "Lille OSC",
-      "image": "lille.png",
+      "image": "https://github.com/SC0DAH/eafc-dataset/raw/main/assets/lille.png",
       "players": [
         { "id": 3401, "name": "Burak Yılmaz", "position": "Forward" },
         { "id": 3402, "name": "José Fonte", "position": "Defender" },
