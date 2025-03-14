@@ -68,12 +68,11 @@
     // Laad het JSON-bestand lokaal
     async function loadData() {
         try {
-            const response = await fetch('leagues.json'); // Gebruik het JSON-bestand
+            const response = await fetch('leagues.json'); 
             const data = await response.json();
 
             const container = document.getElementById('leagues-container');
 
-            // Doorloop alle leagues
             data.leagues.forEach(league => {
                 const leagueElement = document.createElement('div');
                 leagueElement.classList.add('league');
@@ -107,8 +106,7 @@
         }
     }
 
-    // Laad de data bij het openen van de pagina
-    window.onload = loadData;
+    document.addEventListener('DOMContentLoaded', loadData);
 </script>
 </body>
 </html>
