@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football Leagues</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            color: #0aacdd;
+        }
+        h1 {
+            text-align: center;
+            color: #9024dc;
+        }
+        .league {
+            background: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .league:hover {
+            transform: translateY(-5px);
+        }
+        .league img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .team {
+            margin-top: 10px;
+            padding: 15px;
+            background: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .team img {
+            width: 50px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .players {
+            margin-top: 10px;
+            padding-left: 20px;
+            list-style: none;
+        }
+        .players li {
+            padding: 5px 0;
+            border-bottom: 1px solid #f60000;
+            font-size: 14px;
+        }
+        
+    </style>
+</head>
+<body>
+
+<h1>Football Leagues</h1>
+<div id="leagues-container"></div>
+
+<script>
+    // Laad het JSON-bestand lokaal
+    async function loadData() {
+        try {
+            const response = await fetch('leagues.json'); // Gebruik het JSON-bestand
+            const data = await response.json();
+
+            const container = document.getElementById('leagues-container');
+
+            // Doorloop alle leagues
+            data.leagues.forEach(league => {
+                const leagueElement = document.createElement('div');
+                leagueElement.classList.add('league');
+                leagueElement.innerHTML = `
+                    <h2>${league.name}</h2>
+                    <img src="${league.image}" alt="${league.name}">
+                    <div id="teams-${league.id}"></div>
+                `;
+                container.appendChild(leagueElement);
+
+                // Doorloop alle teams in de league
+                league.teams.forEach(team => {
+                    const teamElement = document.createElement('div');
+                    teamElement.classList.add('team');
+                    teamElement.innerHTML = `
+                        <img src="${team.image}" alt="${team.name}">
+                        <div>
+                            <h3>${team.name}</h3>
+                            <ul class="players">
+                                ${team.players.map(player => `
+                                    <li>${player.name} (${player.position})</li>
+                                `).join('')}
+                            </ul>
+                        </div>
+                    `;
+                    document.getElementById(`teams-${league.id}`).appendChild(teamElement);
+                });
+            });
+        } catch (error) {
+            console.error('Fout bij het laden van de data:', error);
+        }
+    }
+
+    // Laad de data bij het openen van de pagina
+    window.onload = loadData;
+</script>
+</body>
+</html>
